@@ -1,0 +1,10 @@
+# DataSource Config
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    #url: jdbc:mysql://localhost:3306/db1?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=GMT
+    url: jdbc:mysql://159.75.234.251:3306/esp32?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=GMT&useSSL=false
+    username: root
+    password: rootzyzwjc
+server:
+  port: 8081
